@@ -27,9 +27,10 @@ You will need the following things properly installed on your computer.
 
 ### Ember Addons Used
 
-* https://github.com/ember-a11y/ember-a11y-refocus for accessible routing
-* https://github.com/DockYard/ember-composable-helpers
-* https://github.com/jmurphyau/ember-truth-helpers
+* [ember-a11y-refocus](https://github.com/ember-a11y/ember-a11y-refocus) for accessible routing
+* [ember-composable-helpers](https://github.com/DockYard/ember-composable-helpers)
+* [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers)
+* [Adding Tailwind CSS](https://gist.github.com/Robert-96/4d85dcafe05d9e5e72d813ae7107cc47)
 
 ### Code Generators
 
