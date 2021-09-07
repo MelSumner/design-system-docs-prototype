@@ -35,7 +35,7 @@ You will need the following things properly installed on your computer.
 
 ### Adding Documentation
 
-* in the `contents` folder, create a new `.md` file, using existing files in that folder for naming and content formatting (including frontmatter).
+* in the `docs` folder, create a new `.md` file, using existing files in that folder for naming and content formatting (including frontmatter).
 * need a new tag? Add a new `.md` file in the `tags` folder.
 
 ### Code Generators

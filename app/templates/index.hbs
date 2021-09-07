@@ -90,6 +90,7 @@
                   class="h-8 w-auto sm:h-10"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                   alt=""
+                  role="none"
                 />
               </a>
             </div>
@@ -149,16 +150,15 @@
 </div>
 <h2>
   Components
-  {{@model.length}}
 </h2>
 <div class="container mx-auto px-4 sm:px-6 lg:px-8">
   <ul class="space-y-3">
-    {{#each @model as |listitem|}}
+    {{#each @model.docs as |listitem|}}
       <li
         class="bg-white shadow overflow-hidden px-4 py-4 sm:px-6 sm:rounded-md"
       >
         <LinkTo
-          @route="contents.content"
+          @route="docs.doc"
           @model={{listitem.id}}
           class="underline"
         >

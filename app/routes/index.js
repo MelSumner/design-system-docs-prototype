@@ -4,6 +4,6 @@ import { inject as service } from '@ember/service';
 export default class IndexRoute extends Route {
   @service store;
   model() {
-    return this.store.findAll('content');
+    return this.store.findAll('doc');
   }
 }

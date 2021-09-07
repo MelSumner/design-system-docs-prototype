@@ -1,14 +1,14 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
 
-export default class ContentsContentRoute extends Route {
+export default class DocsDocRoute extends Route {
   @service store;
   model(params) {
-    let contentDocs = this.store.peekAll('content', params.id);
-    if (!contentDocs) {
+    let doc = this.store.peekAll('doc', params.id);
+    if (!doc) {
       console.log('sorry, no content for this one ' + params.id);
     }
-    return this.store.findRecord('content', params.id);
+    return this.store.findRecord('doc', params.id);
   }
 
   // make sure that tags are loaded in ember-data before template is rendered

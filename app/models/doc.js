@@ -1,6 +1,6 @@
 import Model, { attr, hasMany } from '@ember-data/model';
 
-export default class ContentModel extends Model {
+export default class DocModel extends Model {
   @attr author;
   @attr content;
   @attr html;
@@ -11,5 +11,5 @@ export default class ContentModel extends Model {
       return this.id.split('-').slice(1).join('-');
     },
   })
-  contentName;
+  docName;
 }

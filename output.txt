@@ -1,0 +1,99 @@
+
+Build successful (6990ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+PostcssCompiler (1) | 2823ms
+BroccoliRollup (6) | 706ms (117 ms)
+Bundler (1) | 624ms
+Babel: @ember/test-helpers (1) | 461ms
+Package /assets/vendor.js (1) | 417ms
+ember-auto-import-analyzer (5) | 386ms (77 ms)
+
+App is being served by FastBoot
+DEBUG: -------------------------------
+DEBUG: Ember      : 3.27.5
+DEBUG: Ember Data : 3.27.1
+DEBUG: -------------------------------
+2021-09-07T21:13:53.351Z 200 OK /
+2021-09-07T21:13:53.372Z 200 OK /
+2021-09-07T21:13:53.382Z 200 OK /
+2021-09-07T21:13:53.393Z 200 OK /
+2021-09-07T21:13:53.402Z 200 OK /
+2021-09-07T21:13:53.411Z 200 OK /
+2021-09-07T21:13:53.424Z 200 OK /
+2021-09-07T21:13:53.434Z 200 OK /
+2021-09-07T21:13:53.442Z 200 OK /
+2021-09-07T21:13:53.448Z 200 OK /
+2021-09-07T21:13:53.456Z 200 OK /
+2021-09-07T21:13:53.468Z 200 OK /
+2021-09-07T21:13:53.503Z 200 OK /
+file changed templates/index.hbs
+Reloading FastBoot...
+DEBUG: -------------------------------
+DEBUG: Ember      : 3.27.5
+DEBUG: Ember Data : 3.27.1
+DEBUG: -------------------------------
+
+Build successful (1390ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+Babel: design-system-docs-prototype (3) | 746ms (248 ms)
+TemplateCompiler (2) | 74ms (37 ms)
+
+2021-09-07T21:14:58.084Z 200 OK /
+2021-09-07T21:14:58.107Z 200 OK /
+2021-09-07T21:14:58.120Z 200 OK /
+2021-09-07T21:14:58.131Z 200 OK /
+2021-09-07T21:14:58.148Z 200 OK /
+file changed templates/index.hbs
+Reloading FastBoot...
+DEBUG: -------------------------------
+DEBUG: Ember      : 3.27.5
+DEBUG: Ember Data : 3.27.1
+DEBUG: -------------------------------
+
+Build successful (481ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+BroccoliMergeTrees (31) | 55ms (1 ms)
+Packaged Application Javascript (1) | 43ms
+Babel: ember-source (5) | 37ms (7 ms)
+ember.js (1) | 33ms
+Funnel (69) | 31ms (0 ms)
+Package /assets/vendor.js (1) | 29ms
+
+2021-09-07T21:15:20.070Z 200 OK /
+2021-09-07T21:15:20.080Z 200 OK /
+2021-09-07T21:15:20.100Z 200 OK /
+2021-09-07T21:15:20.115Z 200 OK /
+2021-09-07T21:15:20.126Z 200 OK /
+2021-09-07T21:15:20.152Z 200 OK /
+file changed templates/index.hbs
+Reloading FastBoot...
+DEBUG: -------------------------------
+DEBUG: Ember      : 3.27.5
+DEBUG: Ember Data : 3.27.1
+DEBUG: -------------------------------
+
+Build successful (559ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%) | Total (avg)
+-+-
+TemplateCompiler (2) | 56ms (28 ms)
+BroccoliMergeTrees (31) | 45ms (1 ms)
+Packaged Application Javascript (1) | 42ms
+Package /assets/vendor.js (1) | 36ms
+Babel: ember-source (5) | 36ms (7 ms)
+ember.js (1) | 32ms
+Funnel (69) | 31ms (0 ms)
+Concat: Vendor Styles/assets/vendor.css (1) | 28ms
+
+2021-09-07T21:16:31.696Z 200 OK /
+2021-09-07T21:16:31.707Z 200 OK /
+2021-09-07T21:16:31.721Z 200 OK /
+2021-09-07T21:16:31.732Z 200 OK /
+2021-09-07T21:16:31.742Z 200 OK /
+2021-09-07T21:16:31.765Z 200 OK /
