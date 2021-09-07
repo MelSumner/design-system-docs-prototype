@@ -31,6 +31,12 @@ You will need the following things properly installed on your computer.
 * [ember-composable-helpers](https://github.com/DockYard/ember-composable-helpers)
 * [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers)
 * [Adding Tailwind CSS](https://gist.github.com/Robert-96/4d85dcafe05d9e5e72d813ae7107cc47)
+* [broccoli-static-site-json](https://github.com/empress/broccoli-static-site-json)
+
+### Adding Documentation
+
+* in the `contents` folder, create a new `.md` file, using existing files in that folder for naming and content formatting (including frontmatter).
+* need a new tag? Add a new `.md` file in the `tags` folder.
 
 ### Code Generators
 
